@@ -9,6 +9,7 @@ function send1(){
     let div = document.createElement("div");
     let p = document.createElement("p");
 
+    div.className="container1"
     p.className= "bigdiv1"
     res.appendChild(div)
     div.appendChild(p)
@@ -26,7 +27,7 @@ function send2(){
     let div = document.createElement("div");
     let p = document.createElement("p");
 
-    div.className="container"
+    div.className="container2"
     p.className= "bigdiv2"
     res.appendChild(div)
     div.appendChild(p)
